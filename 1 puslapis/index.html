@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Praktika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Best <span>ToDo</span> App</h2>
+      <nav>
+        <a target="_blank" href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="https://x.com/i/flow/login"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a target="_blank" href="https://lt.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </nav>
+    </header>
+    <section>
+      <div class="box box1">
+        <h1>Your Tasks</h1>
+        <form class="input-text">
+          <label for="input-button"></label>
+          <input
+            class="input-button"
+            type="text"
+            placeholder="e.g. wash dishes"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+      <div class="box box2 box3">
+        <form>
+          <label for="input-radio"
+            ><i class="fa-regular fa-circle-check check1"></i>
+          </label>
+          <input class="input-radio" type="radio" />Take Out Trashes
+        </form>
+
+        <div class="font-awesome">
+          <i class="fa-regular fa-square-check check"></i>
+          <i class="fa-solid fa-trash trash"></i>
+        </div>
+      </div>
+
+      <div class="box box2 box4">
+        <form class="line">
+          <label for="input-radio"
+            ><i class="fa-regular fa-circle-check check2"></i
+          ></label>
+          <input type="radio" class="custom-radio" />Walk The Dog
+        </form>
+
+        <div class="font-awesome">
+          <i class="fa-regular fa-square-check check"></i>
+          <i class="fa-solid fa-trash trash"></i>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
